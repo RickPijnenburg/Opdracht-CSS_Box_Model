@@ -1,0 +1,41 @@
+body {
+    color: red;
+}
+
+main, header, footer {
+    border: 2px solid blue;
+    margin: 0.75em 0;
+    padding: 5px 10px;
+}
+
+#learning-list {
+    background-color: burlywood;
+}
+
+h1 {
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aqua;
+}
+
+.main-text {
+    font-size: larger;
+    color: green;
+}
+
+main ul:hover {
+    border: 2px solid black;
+}
+
+main li:hover{
+    font-size: 2em;
+}
+
+.nav-list{
+    list-style: none;
+    display: inline;
+}
